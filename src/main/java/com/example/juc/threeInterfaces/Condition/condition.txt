@@ -1,0 +1,6 @@
+
+Condition（await()，signal()，signalAll()）取代Object监视器方法（ wait,notify和notifyAll ）的使用，
+得到具有多个等待集的每个对象，通过将它们与使用任意的组合的效果Lock个实现。
+
+ 一个Condition实例本质上绑定到一个锁。 要获得特定的Condition实例，使用其newCondition()方法。
+ 定义多个condition --指定多线程的执行顺序
